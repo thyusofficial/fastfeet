@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
- <a href="#computer-instalação-execução-e-desenvolvimento">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#computer-instalação-execução-e-desenvolvimento">Instalação</a>
 </p>
 
 ## :rocket: Tecnologias
@@ -22,7 +22,7 @@ As tecnologias utilizadas neste projeto foram:
 - [React](https://reactjs.org/)
 - [React Native](https://reactnative.dev/)
 
-## :computer: Instalação, execução e desenvolvimento
+## :computer: Instalação e execução
 
 Faça um clone desse repositório.
 
