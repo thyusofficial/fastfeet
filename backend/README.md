@@ -7,7 +7,7 @@
 </h3>
 
 <p>
-Este desafio faz parte do Bootcamp GoStack e faz parte do Desafio Final, que contempla uma aplicação
+Este desafio faz parte do Bootcamp GoStack e do Desafio Final, que contempla uma aplicação
 completa (Back-end, Front-end e Mobile).
 </p>
 
