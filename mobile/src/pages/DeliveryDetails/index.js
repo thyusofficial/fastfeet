@@ -37,7 +37,7 @@ export default function DeliveryDetails({ route }) {
       } else {
         navigation.navigate('Confirmar', { deliveryId: delivery.id });
       }
-    } catch (err) {}
+    } catch (err) { }
   }
 
   return (

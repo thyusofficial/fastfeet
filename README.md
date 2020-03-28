@@ -44,5 +44,22 @@ Faça um clone desse repositório.
 - Rode `yarn sequelize db:migrate` para executar as migrations;
 - Para executar migration de `admin-user` rode o comando `yarn sequelize db:seed:all`
 
+### Frontend 
+
+- Acesse a pasta da aplicação web `cd frontend`;
+- Rode `yarn` para que seja feito a instalação das dependências;
+- Rode `yarn start` para rodar o projeto react;
+
+### Mobile 
+- A aplicação foi desenvolvida e testada no sistema Android
+- A emulação foi feita em um aparelho via USB e informações de como fazer essa configuração pode ser encontrada no [blog](https://docs.rocketseat.dev/ambiente-react-native/usb/android) da Rocketseat
+- Acesse a pasta da aplicação mobile `cd mobile`
+- Rode `yarn` para instalar as dependências
+- Rode `react-native run-android` para rodar o projeto React Native
+
+
+
+
+
 
 By [Matheus Cardoso](https://www.linkedin.com/in/thyus/)
