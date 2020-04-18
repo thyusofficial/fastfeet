@@ -38,7 +38,7 @@ Faça um clone desse repositório.
 - Rode `yarn` para que seja feito a instalação das dependências;
 - Rode `docker run --name database -e POSTGRESS_PASSWORD=docker -p 5432:5432 -d postgres`
 - Rode `docker run --name redisfeet -p 6379:6379 -d -t redis:alpine`
-- Rode `docker run database redisfeet` para iniciar os containers
+- Rode `docker start database redisfeet` para iniciar os containers
 - Acesse o container criado através do Postbird e crie uma base de dados. Exemplo: "fastfeet"
 - Preencha o arquivo `.env` com SUAS variáveis ambiente;
 - Rode `yarn sequelize db:migrate` para executar as migrations;
