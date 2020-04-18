@@ -108,7 +108,7 @@ export default function Delivery() {
       <Profile>
         <Avatar
           source={{
-            uri: profile.avatar.url
+            uri: profile.avatar
               ? profile.avatar.url.replace('localhost', '192.168.0.11')
               : 'https://api.adorable.io/avatars/285/abott@adorable.png',
           }}

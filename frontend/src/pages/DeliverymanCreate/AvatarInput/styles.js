@@ -14,6 +14,7 @@ export const Label = styled.label`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+
   > strong {
     font-size: 16px;
     color: #ddd;
@@ -23,6 +24,9 @@ export const Label = styled.label`
 
   > img {
     border-radius: 50%;
+    object-fit:cover;
+    width:100%;
+    height:100%;
   }
 
   > input {

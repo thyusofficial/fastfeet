@@ -76,6 +76,7 @@ class DeliveryProblemController {
       include: [
         {
           model: DeliveryMen,
+          as: 'deliveryman',
           attributes: ['name', 'email'],
         },
       ],
