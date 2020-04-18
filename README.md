@@ -42,7 +42,7 @@ Faça um clone desse repositório.
 - Acesse o container criado através do Postbird e crie uma base de dados. Exemplo: "fastfeet"
 - Preencha o arquivo `.env` com SUAS variáveis ambiente;
 - Rode `yarn sequelize db:migrate` para executar as migrations;
-- Para executar migration de `admin-user` rode o comando `yarn sequelize db:seed:all`
+- Para executar seed de `admin-user` rode o comando `yarn sequelize db:seed:all`
 
 ### Frontend 
 
@@ -51,10 +51,11 @@ Faça um clone desse repositório.
 - Rode `yarn start` para rodar o projeto react;
 
 ### Mobile 
-- A aplicação foi desenvolvida e testada no sistema Android
+- A aplicação foi desenvolvida e testada apenas no sistema **Android**
 - A emulação foi feita em um aparelho via USB e informações de como fazer essa configuração pode ser encontrada no [blog](https://docs.rocketseat.dev/ambiente-react-native/usb/android) da Rocketseat
 - Acesse a pasta da aplicação mobile `cd mobile`
 - Rode `yarn` para instalar as dependências
+- Acesse `mobile/services/api.js` e altere a `baseURL` para o IP da sua máquina
 - Rode `react-native run-android` para rodar o projeto React Native
 
 
