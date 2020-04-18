@@ -34,13 +34,31 @@ Abaixo estão descritas as rotas da aplicação.
 | ---| --- | --- |
 |  Rota de autenticação do adm | *POST* |  `/sessions` |
 
-### **1. Gestão de entregadores**
+### **2. Gestão de entregadores**
 | Ação |  Tipo  | Rota |
 | ---| --- | --- |
 | Listagem (todos ou passando o nome como parâmetro)| *GET* |  `/deliverymen?q=` |
 | Criação | *POST* |  `/deliverymen` |
 | Edição | *PUT* |  `/deliverymen/:id` |
 | Remoção | *DELETE* |  `/deliverymen/:id` |
+
+### **2. Gestão de Destinatários**
+| Ação |  Tipo  | Rota |
+| ---| --- | --- |
+| Listagem (todos ou passando o nome como parâmetro)| *GET* |  `/recipients?q=` |
+| Criação | *POST* |  `/recipients` |
+| Edição | *PUT* |  `/recipients/:id` |
+| Remoção | *DELETE* |  `/recipients/:id` |
+
+### **3. Gestão de Encomendas**
+| Ação |  Tipo  | Rota |
+| ---| --- | --- |
+| Listagem (todos ou passando o nome como parâmetro)| *GET* |  `/deliveries/?q=` |
+| Criação | *POST* |  `/deliveries` |
+| Edição | *PUT* |  `/deliveries/:id` |
+| Remoção | *DELETE* |  `/deliveries/:id` |
+
+
 
 
 
