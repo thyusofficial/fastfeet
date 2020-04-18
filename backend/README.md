@@ -30,7 +30,7 @@ Nesse desafio a ideia é construir a api back-end que servirá os dados para o f
 Abaixo estão descritas as rotas da aplicação.
 
 ### **1. Autenticação**
+|  Rota de login na aplicação web|  `/sessions` |
 
-Pertence ao usuário admin
 
 
