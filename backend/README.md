@@ -66,6 +66,7 @@ Abaixo estão descritas as rotas da aplicação.
 | Altera status da encomenda (id da encomenda)| *PUT* |  `/deliveries/withdraw/:id` |
 | Altera status da encomenda (id da encomenda)| *DELETE* |  `/deliveries/withdraw/:id` |
 | Cadastra problema na entrega (id da encomenda)| *POST* |  `/delivery/id/problems` |
+| Listar problema na entrega (id da encomenda)| *GET* |  `/delivery/:id/problems` |
 
 
 
