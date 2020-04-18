@@ -58,6 +58,15 @@ Abaixo estão descritas as rotas da aplicação.
 | Edição | *PUT* |  `/deliveries/:id` |
 | Remoção | *DELETE* |  `/deliveries/:id` |
 
+### **4. Funcionalidades do Entregador**
+| Ação |  Tipo  | Rota |
+| ---| --- | --- |
+| Listagem de encomendas não entregues (id do entregador)| *GET* |  `/deliveryman/:id/undelivered` |
+| Listagem de encomendas entregues (id do entregador)| *GET* |  `/deliveryman/:id/delivered` |
+| Altera status da encomenda (id da encomenda)| *PUT* |  `/deliveries/withdraw/:id` |
+| Altera status da encomenda (id da encomenda)| *DELETE* |  `/deliveries/withdraw/:id` |
+| Cadastra problema na entrega (id da encomenda)| *POST* |  `/delivery/id/problems` |
+
 
 
 
