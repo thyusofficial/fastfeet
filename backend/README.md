@@ -30,11 +30,17 @@ Nesse desafio a ideia é construir a api back-end que servirá os dados para o f
 Abaixo estão descritas as rotas da aplicação.
 
 ### **1. Autenticação**
-| Ação |  Tipo  | Rota
+| Ação |  Tipo  | Rota |
 | ---| --- | --- |
 |  Rota de autenticação do adm | *POST* |  `/sessions` |
 
 ### **1. Gestão de entregadores**
+| Ação |  Tipo  | Rota |
+| ---| --- | --- |
+| Listagem (todos ou passando o nome como parâmetro)| *GET* |  `/deliverymen?q=` |
+| Criação | *POST* |  `/deliverymen` |
+| Edição | *PUT* |  `/deliverymen/:id` |
+| Remoção | *DELETE* |  `/deliverymen/:id` |
 
 
 
